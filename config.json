@@ -1,0 +1,28 @@
+{
+  "name": "wpo",
+  "css_prefix_text": "wpo-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "c009d417f87d6a27bb5a1cefd30b6cbd",
+      "css": "text-height",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "13a971bcccd2dda26d4d4eccd8593f8a",
+      "css": "text-width",
+      "code": 59393,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "2c26914ed707706773028b28e8aa5bd6",
+      "css": "fontsize",
+      "code": 59394,
+      "src": "elusive"
+    }
+  ]
+}
