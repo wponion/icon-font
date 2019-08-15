@@ -1,2 +1,3 @@
-# icon-font
-Custom WPOnion Icon Font
+# WPOnion Icon Font
+
+This repo contains custom icon fonts created / take from icomoon.io
