@@ -2,18 +2,18 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?wzi209');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?wzi209#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2?wzi209') format('woff2'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?wzi209') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?wzi209') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?wzi209##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?a7uqii');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?a7uqii#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2?a7uqii') format('woff2'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?a7uqii') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?a7uqii') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?a7uqii##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="wpoic"], [class*=" wpoic"] {
+[class^="wpoic-"], [class*=" wpoic-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '#{$icomoon-font-family}' !important;
   speak: none;
@@ -28,409 +28,409 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.wpoicicon {
+.wpoic-icon {
   &:before {
-    content: $wpoicicon; 
+    content: $wpoic-icon; 
   }
 }
-.wpoicicon-small {
+.wpoic-icon-small {
   &:before {
-    content: $wpoicicon-small; 
+    content: $wpoic-icon-small; 
   }
 }
-.wpoiclogo {
+.wpoic-logo {
   &:before {
-    content: $wpoiclogo; 
+    content: $wpoic-logo; 
   }
 }
-.wpoiccollapse {
+.wpoic-collapse {
   &:before {
-    content: $wpoiccollapse; 
+    content: $wpoic-collapse; 
   }
 }
-.wpoicexpand {
+.wpoic-expand {
   &:before {
-    content: $wpoicexpand; 
+    content: $wpoic-expand; 
   }
 }
-.wpoicclock {
+.wpoic-clock {
   &:before {
-    content: $wpoicclock; 
+    content: $wpoic-clock; 
   }
 }
-.wpoictime {
+.wpoic-time {
   &:before {
-    content: $wpoictime; 
+    content: $wpoic-time; 
   }
 }
-.wpoicmenu {
+.wpoic-menu {
   &:before {
-    content: $wpoicmenu; 
+    content: $wpoic-menu; 
   }
 }
-.wpoiclive_help {
+.wpoic-live_help {
   &:before {
-    content: $wpoiclive_help; 
+    content: $wpoic-live_help; 
   }
 }
-.wpoicremove_circledo_not_disturb_on {
+.wpoic-remove_circledo_not_disturb_on {
   &:before {
-    content: $wpoicremove_circledo_not_disturb_on; 
+    content: $wpoic-remove_circledo_not_disturb_on; 
   }
 }
-.wpoicremove_circle_outline {
+.wpoic-remove_circle_outline {
   &:before {
-    content: $wpoicremove_circle_outline; 
+    content: $wpoic-remove_circle_outline; 
   }
 }
-.wpoicborder_color {
+.wpoic-border_color {
   &:before {
-    content: $wpoicborder_color; 
+    content: $wpoic-border_color; 
   }
 }
-.wpoicformat_color_fill {
+.wpoic-format_color_fill {
   &:before {
-    content: $wpoicformat_color_fill; 
+    content: $wpoic-format_color_fill; 
   }
 }
-.wpoicformat_color_text {
+.wpoic-format_color_text {
   &:before {
-    content: $wpoicformat_color_text; 
+    content: $wpoic-format_color_text; 
   }
 }
-.wpoicformat_paint {
+.wpoic-format_paint {
   &:before {
-    content: $wpoicformat_paint; 
+    content: $wpoic-format_paint; 
   }
 }
-.wpoiccloud_download {
+.wpoic-cloud_download {
   &:before {
-    content: $wpoiccloud_download; 
+    content: $wpoic-cloud_download; 
   }
 }
-.wpoiccloud_uploadbackup {
+.wpoic-cloud_uploadbackup {
   &:before {
-    content: $wpoiccloud_uploadbackup; 
+    content: $wpoic-cloud_uploadbackup; 
   }
 }
-.wpoicfile_downloadget_app {
+.wpoic-file_downloadget_app {
   &:before {
-    content: $wpoicfile_downloadget_app; 
+    content: $wpoic-file_downloadget_app; 
   }
 }
-.wpoiccolor_lenspalette {
+.wpoic-color_lenspalette {
   &:before {
-    content: $wpoiccolor_lenspalette; 
+    content: $wpoic-color_lenspalette; 
   }
 }
-.wpoiccolorize {
+.wpoic-colorize {
   &:before {
-    content: $wpoiccolorize; 
+    content: $wpoic-colorize; 
   }
 }
-.wpoicdelete {
+.wpoic-delete {
   &:before {
-    content: $wpoicdelete; 
+    content: $wpoic-delete; 
   }
 }
-.wpoichelp {
+.wpoic-help {
   &:before {
-    content: $wpoichelp; 
+    content: $wpoic-help; 
   }
 }
-.wpoicsettings_backup_restore {
+.wpoic-settings_backup_restore {
   &:before {
-    content: $wpoicsettings_backup_restore; 
+    content: $wpoic-settings_backup_restore; 
   }
 }
-.wpoichelp_outline {
+.wpoic-help_outline {
   &:before {
-    content: $wpoichelp_outline; 
+    content: $wpoic-help_outline; 
   }
 }
-.wpoicdelete_forever {
+.wpoic-delete_forever {
   &:before {
-    content: $wpoicdelete_forever; 
+    content: $wpoic-delete_forever; 
   }
 }
-.wpoicdelete_outline {
+.wpoic-delete_outline {
   &:before {
-    content: $wpoicdelete_outline; 
+    content: $wpoic-delete_outline; 
   }
 }
-.wpoiccontact_support {
+.wpoic-contact_support {
   &:before {
-    content: $wpoiccontact_support; 
+    content: $wpoic-contact_support; 
   }
 }
-.wpoicplus {
+.wpoic-plus {
   &:before {
-    content: $wpoicplus; 
+    content: $wpoic-plus; 
   }
 }
-.wpoicquestion {
+.wpoic-question {
   &:before {
-    content: $wpoicquestion; 
+    content: $wpoic-question; 
   }
 }
-.wpoicminus {
+.wpoic-minus {
   &:before {
-    content: $wpoicminus; 
+    content: $wpoic-minus; 
   }
 }
-.wpoicenvelope-o {
+.wpoic-envelope-o {
   &:before {
-    content: $wpoicenvelope-o; 
+    content: $wpoic-envelope-o; 
   }
 }
-.wpoiccheck {
+.wpoic-check {
   &:before {
-    content: $wpoiccheck; 
+    content: $wpoic-check; 
   }
 }
-.wpoicyes {
+.wpoic-yes {
   &:before {
-    content: $wpoicyes; 
+    content: $wpoic-yes; 
   }
 }
-.wpoicclose {
+.wpoic-close {
   &:before {
-    content: $wpoicclose; 
+    content: $wpoic-close; 
   }
 }
-.wpoicremove {
+.wpoic-remove {
   &:before {
-    content: $wpoicremove; 
+    content: $wpoic-remove; 
   }
 }
-.wpoictimes {
+.wpoic-times {
   &:before {
-    content: $wpoictimes; 
+    content: $wpoic-times; 
   }
 }
-.wpoicno {
+.wpoic-no {
   &:before {
-    content: $wpoicno; 
+    content: $wpoic-no; 
   }
 }
-.wpoiccheck-square-o {
+.wpoic-check-square-o {
   &:before {
-    content: $wpoiccheck-square-o; 
+    content: $wpoic-check-square-o; 
   }
 }
-.wpoicall {
+.wpoic-all {
   &:before {
-    content: $wpoicall; 
+    content: $wpoic-all; 
   }
 }
-.wpoicarrows {
+.wpoic-arrows {
   &:before {
-    content: $wpoicarrows; 
+    content: $wpoic-arrows; 
   }
 }
-.wpoicall-direction {
+.wpoic-all-direction {
   &:before {
-    content: $wpoicall-direction; 
+    content: $wpoic-all-direction; 
   }
 }
-.wpoicarrow-left-small {
+.wpoic-arrow-left-small {
   &:before {
-    content: $wpoicarrow-left-small; 
+    content: $wpoic-arrow-left-small; 
   }
 }
-.wpoicarrow-right-small {
+.wpoic-arrow-right-small {
   &:before {
-    content: $wpoicarrow-right-small; 
+    content: $wpoic-arrow-right-small; 
   }
 }
-.wpoicplus-circle {
+.wpoic-plus-circle {
   &:before {
-    content: $wpoicplus-circle; 
+    content: $wpoic-plus-circle; 
   }
 }
-.wpoicminus-circle {
+.wpoic-minus-circle {
   &:before {
-    content: $wpoicminus-circle; 
+    content: $wpoic-minus-circle; 
   }
 }
-.wpoiccheck-circle {
+.wpoic-check-circle {
   &:before {
-    content: $wpoiccheck-circle; 
+    content: $wpoic-check-circle; 
   }
 }
-.wpoiccheck-circle-o {
+.wpoic-check-circle-o {
   &:before {
-    content: $wpoiccheck-circle-o; 
+    content: $wpoic-check-circle-o; 
   }
 }
-.wpoicarrow-left {
+.wpoic-arrow-left {
   &:before {
-    content: $wpoicarrow-left; 
+    content: $wpoic-arrow-left; 
   }
 }
-.wpoicarrow-right {
+.wpoic-arrow-right {
   &:before {
-    content: $wpoicarrow-right; 
+    content: $wpoic-arrow-right; 
   }
 }
-.wpoicarrow-up {
+.wpoic-arrow-up {
   &:before {
-    content: $wpoicarrow-up; 
+    content: $wpoic-arrow-up; 
   }
 }
-.wpoicarrow-down {
+.wpoic-arrow-down {
   &:before {
-    content: $wpoicarrow-down; 
+    content: $wpoic-arrow-down; 
   }
 }
-.wpoiccalendar {
+.wpoic-calendar {
   &:before {
-    content: $wpoiccalendar; 
+    content: $wpoic-calendar; 
   }
 }
-.wpoicarrow-up-small {
+.wpoic-arrow-up-small {
   &:before {
-    content: $wpoicarrow-up-small; 
+    content: $wpoic-arrow-up-small; 
   }
 }
-.wpoicarrow-down-small {
+.wpoic-arrow-down-small {
   &:before {
-    content: $wpoicarrow-down-small; 
+    content: $wpoic-arrow-down-small; 
   }
 }
-.wpoictwitter-square {
+.wpoic-twitter-square {
   &:before {
-    content: $wpoictwitter-square; 
+    content: $wpoic-twitter-square; 
   }
 }
-.wpoicfacebook-square {
+.wpoic-facebook-square {
   &:before {
-    content: $wpoicfacebook-square; 
+    content: $wpoic-facebook-square; 
   }
 }
-.wpoicgithub-square {
+.wpoic-github-square {
   &:before {
-    content: $wpoicgithub-square; 
+    content: $wpoic-github-square; 
   }
 }
-.wpoictwitter {
+.wpoic-twitter {
   &:before {
-    content: $wpoictwitter; 
+    content: $wpoic-twitter; 
   }
 }
-.wpoicfacebook {
+.wpoic-facebook {
   &:before {
-    content: $wpoicfacebook; 
+    content: $wpoic-facebook; 
   }
 }
-.wpoicfacebook-f {
+.wpoic-facebook-f {
   &:before {
-    content: $wpoicfacebook-f; 
+    content: $wpoic-facebook-f; 
   }
 }
-.wpoicgithub {
+.wpoic-github {
   &:before {
-    content: $wpoicgithub; 
+    content: $wpoic-github; 
   }
 }
-.wpoiccaret-down {
+.wpoic-caret-down {
   &:before {
-    content: $wpoiccaret-down; 
+    content: $wpoic-caret-down; 
   }
 }
-.wpoiccaret-left {
+.wpoic-caret-left {
   &:before {
-    content: $wpoiccaret-left; 
+    content: $wpoic-caret-left; 
   }
 }
-.wpoiccaret-right {
+.wpoic-caret-right {
   &:before {
-    content: $wpoiccaret-right; 
+    content: $wpoic-caret-right; 
   }
 }
-.wpoicenvelope {
+.wpoic-envelope {
   &:before {
-    content: $wpoicenvelope; 
+    content: $wpoic-envelope; 
   }
 }
-.wpoicplus-square {
+.wpoic-plus-square {
   &:before {
-    content: $wpoicplus-square; 
+    content: $wpoic-plus-square; 
   }
 }
-.wpoiccalendar-o {
+.wpoic-calendar-o {
   &:before {
-    content: $wpoiccalendar-o; 
+    content: $wpoic-calendar-o; 
   }
 }
-.wpoicminus-square {
+.wpoic-minus-square {
   &:before {
-    content: $wpoicminus-square; 
+    content: $wpoic-minus-square; 
   }
 }
-.wpoicminus-square-o {
+.wpoic-minus-square-o {
   &:before {
-    content: $wpoicminus-square-o; 
+    content: $wpoic-minus-square-o; 
   }
 }
-.wpoicplus-square-o {
+.wpoic-plus-square-o {
   &:before {
-    content: $wpoicplus-square-o; 
+    content: $wpoic-plus-square-o; 
   }
 }
-.wpoicwordpress {
+.wpoic-wordpress {
   &:before {
-    content: $wpoicwordpress; 
+    content: $wpoic-wordpress; 
   }
 }
-.wpoiceyedropper {
+.wpoic-eyedropper {
   &:before {
-    content: $wpoiceyedropper; 
+    content: $wpoic-eyedropper; 
   }
 }
-.wpoicpaint-brush {
+.wpoic-paint-brush {
   &:before {
-    content: $wpoicpaint-brush; 
+    content: $wpoic-paint-brush; 
   }
 }
-.wpoiccalendar-plus-o {
+.wpoic-calendar-plus-o {
   &:before {
-    content: $wpoiccalendar-plus-o; 
+    content: $wpoic-calendar-plus-o; 
   }
 }
-.wpoiccalendar-minus-o {
+.wpoic-calendar-minus-o {
   &:before {
-    content: $wpoiccalendar-minus-o; 
+    content: $wpoic-calendar-minus-o; 
   }
 }
-.wpoiccalendar-times-o {
+.wpoic-calendar-times-o {
   &:before {
-    content: $wpoiccalendar-times-o; 
+    content: $wpoic-calendar-times-o; 
   }
 }
-.wpoiccalendar-check-o {
+.wpoic-calendar-check-o {
   &:before {
-    content: $wpoiccalendar-check-o; 
+    content: $wpoic-calendar-check-o; 
   }
 }
-.wpoictimes-rectangle {
+.wpoic-times-rectangle {
   &:before {
-    content: $wpoictimes-rectangle; 
+    content: $wpoic-times-rectangle; 
   }
 }
-.wpoicwindow-close {
+.wpoic-window-close {
   &:before {
-    content: $wpoicwindow-close; 
+    content: $wpoic-window-close; 
   }
 }
-.wpoictimes-rectangle-o {
+.wpoic-times-rectangle-o {
   &:before {
-    content: $wpoictimes-rectangle-o; 
+    content: $wpoic-times-rectangle-o; 
   }
 }
-.wpoicwindow-close-o {
+.wpoic-window-close-o {
   &:before {
-    content: $wpoicwindow-close-o; 
+    content: $wpoic-window-close-o; 
   }
 }
 
