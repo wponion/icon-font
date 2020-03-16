@@ -5,7 +5,7 @@
 <json>
 <![CDATA[
 {
-	"fontFamily": "WPOnion-Font",
+	"fontFamily": "WPOnion",
 	"majorVersion": 1,
 	"minorVersion": 0,
 	"fontURL": "https://icons.wponion.com/",
@@ -16,16 +16,16 @@
 	"license": "MIT",
 	"licenseURL": "https://github.com/wponion/icon-font/blob/master/LICENSE",
 	"version": "Version 1.0",
-	"fontId": "WPOnion-Font",
-	"psName": "WPOnion-Font",
+	"fontId": "WPOnion",
+	"psName": "WPOnion",
 	"subFamily": "Regular",
-	"fullName": "WPOnion-Font"
+	"fullName": "WPOnion"
 }
 ]]>
 </json>
 </metadata>
 <defs>
-<font id="WPOnion-Font" horiz-adv-x="1024">
+<font id="WPOnion" horiz-adv-x="1024">
 <font-face units-per-em="1024" ascent="960" descent="-64" />
 <missing-glyph horiz-adv-x="1024" />
 <glyph unicode="&#x20;" horiz-adv-x="512" d="" />
