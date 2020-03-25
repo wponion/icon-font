@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ikh2p3');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ikh2p3#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2?ikh2p3') format('woff2'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ikh2p3') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ikh2p3') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ikh2p3##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?66mq8m');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?66mq8m#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2?66mq8m') format('woff2'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?66mq8m') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?66mq8m') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?66mq8m##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -361,6 +361,11 @@
 .wpoic-caret-down {
   &:before {
     content: $wpoic-caret-down; 
+  }
+}
+.wpoic-caret-up {
+  &:before {
+    content: $wpoic-caret-up; 
   }
 }
 .wpoic-caret-left {
