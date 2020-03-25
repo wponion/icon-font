@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?hzoxd');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?hzoxd#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2?hzoxd') format('woff2'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?hzoxd') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?hzoxd') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?hzoxd##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ikh2p3');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ikh2p3#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2?ikh2p3') format('woff2'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ikh2p3') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ikh2p3') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ikh2p3##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -61,6 +61,16 @@
 .wpoic-time {
   &:before {
     content: $wpoic-time; 
+  }
+}
+.wpoic-info-with-circle {
+  &:before {
+    content: $wpoic-info-with-circle; 
+  }
+}
+.wpoic-info {
+  &:before {
+    content: $wpoic-info; 
   }
 }
 .wpoic-menu {
@@ -258,6 +268,11 @@
     content: $wpoic-check-circle; 
   }
 }
+.wpoic-question-circle {
+  &:before {
+    content: $wpoic-question-circle; 
+  }
+}
 .wpoic-check-circle-o {
   &:before {
     content: $wpoic-check-circle-o; 
@@ -281,6 +296,16 @@
 .wpoic-arrow-down {
   &:before {
     content: $wpoic-arrow-down; 
+  }
+}
+.wpoic-exclamation-triangle {
+  &:before {
+    content: $wpoic-exclamation-triangle; 
+  }
+}
+.wpoic-warning {
+  &:before {
+    content: $wpoic-warning; 
   }
 }
 .wpoic-calendar {

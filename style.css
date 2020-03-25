@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'wponion';
-  src:  url('fonts/wponion.eot?hzoxd');
-  src:  url('fonts/wponion.eot?hzoxd#iefix') format('embedded-opentype'),
-    url('fonts/wponion.woff2?hzoxd') format('woff2'),
-    url('fonts/wponion.ttf?hzoxd') format('truetype'),
-    url('fonts/wponion.woff?hzoxd') format('woff'),
-    url('fonts/wponion.svg?hzoxd#wponion') format('svg');
+  src:  url('fonts/wponion.eot?ikh2p3');
+  src:  url('fonts/wponion.eot?ikh2p3#iefix') format('embedded-opentype'),
+    url('fonts/wponion.woff2?ikh2p3') format('woff2'),
+    url('fonts/wponion.ttf?ikh2p3') format('truetype'),
+    url('fonts/wponion.woff?ikh2p3') format('woff'),
+    url('fonts/wponion.svg?ikh2p3#wponion') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -46,6 +46,12 @@
 }
 .wpoic-time:before {
   content: "\e901";
+}
+.wpoic-info-with-circle:before {
+  content: "\e902";
+}
+.wpoic-info:before {
+  content: "\e903";
 }
 .wpoic-menu:before {
   content: "\e904";
@@ -164,6 +170,9 @@
 .wpoic-check-circle:before {
   content: "\f058";
 }
+.wpoic-question-circle:before {
+  content: "\f059";
+}
 .wpoic-check-circle-o:before {
   content: "\f05d";
 }
@@ -178,6 +187,12 @@
 }
 .wpoic-arrow-down:before {
   content: "\f063";
+}
+.wpoic-exclamation-triangle:before {
+  content: "\f071";
+}
+.wpoic-warning:before {
+  content: "\f071";
 }
 .wpoic-calendar:before {
   content: "\f073";
