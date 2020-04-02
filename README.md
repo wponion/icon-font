@@ -27,8 +27,74 @@ When using the icons in a separate project.
 
 
 ## Change Log
-### 1.0 - 26/03/2020
+## 1.0 - 26/03/2020
 * First Release
+
+## 1.1 - 02/04/2020
+### Added
+* Book
+* Upload
+* Download
+* Database 
+* File
+
+### Renamed
+1. clock, time to clock
+2. exclamation-triangle, warning to warning
+3. file_downloadget_app to file_download
+4. settings_backup_restore
+5. close,remove,times,no to no
+6. check,yes to yes
+7. all,arrows,all-direction to all-direction
+
+### Removed
+* live-help
+* remove_circledo_not_disturb_on
+* remove_circle_outline
+* border_color
+* format_color_fill
+* format_color_text
+* format_paint
+* file_downloadget_app
+* color_lenspalette
+* colorize
+* help_outline
+* delete_forever
+* delete_outline
+* contact_support
+* question
+* minus
+* envelope-o
+* check-square-o
+* check
+* minus-circle
+* arrow-right-small
+* arrow-left-small
+* check-circle
+* question-circle
+* check-circle-o
+* exclamation-triangle
+* arrow-up-small
+* arrow-down-small
+* twitter-square
+* facebook-square
+* github-square
+* facebook
+* twitter
+* github
+* plus-square
+* calendar-o
+* minus-square
+* minus-square-o
+* plus-square-o
+* eyedropper
+* paint-brush
+* calendar-plus-o
+* calendar-minus-o
+* calendar-times-o
+* calendar-check-o
+* times-rectangle
+* times-rectangle-o
 ---
 
 ## License
