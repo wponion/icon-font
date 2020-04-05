@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?a1xs0q');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?a1xs0q#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2?a1xs0q') format('woff2'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?a1xs0q') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?a1xs0q') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?a1xs0q##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?k1ie3j');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?k1ie3j#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2?k1ie3j') format('woff2'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?k1ie3j') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?k1ie3j') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?k1ie3j##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -28,9 +28,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.wpoic-pencil {
+  &:before {
+    content: $wpoic-pencil; 
+  }
+}
 .wpoic-book {
   &:before {
     content: $wpoic-book; 
+  }
+}
+.wpoic-books {
+  &:before {
+    content: $wpoic-books; 
   }
 }
 .wpoic-file-text {
@@ -48,9 +58,19 @@
     content: $wpoic-upload; 
   }
 }
+.wpoic-save {
+  &:before {
+    content: $wpoic-save; 
+  }
+}
 .wpoic-database {
   &:before {
     content: $wpoic-database; 
+  }
+}
+.wpoic-insert-template {
+  &:before {
+    content: $wpoic-insert-template; 
   }
 }
 .wpoic-collapse {
