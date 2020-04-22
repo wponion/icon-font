@@ -2,12 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?k1ie3j');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?k1ie3j#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2?k1ie3j') format('woff2'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?k1ie3j') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?k1ie3j') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?k1ie3j##{$icomoon-font-family}') format('svg');
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2?52nuqh') format('woff2'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?52nuqh') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?52nuqh') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?52nuqh##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -28,9 +27,49 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.wpoic-status {
+  &:before {
+    content: $wpoic-status; 
+  }
+}
+.wpoic-files-text {
+  &:before {
+    content: $wpoic-files-text; 
+  }
+}
+.wpoic-print {
+  &:before {
+    content: $wpoic-print; 
+  }
+}
+.wpoic-view-site {
+  &:before {
+    content: $wpoic-view-site; 
+  }
+}
+.wpoic-text-page {
+  &:before {
+    content: $wpoic-text-page; 
+  }
+}
+.wpoic-home {
+  &:before {
+    content: $wpoic-home; 
+  }
+}
+.wpoic-office {
+  &:before {
+    content: $wpoic-office; 
+  }
+}
 .wpoic-pencil {
   &:before {
     content: $wpoic-pencil; 
+  }
+}
+.wpoic-blog {
+  &:before {
+    content: $wpoic-blog; 
   }
 }
 .wpoic-book {
@@ -46,6 +85,36 @@
 .wpoic-file-text {
   &:before {
     content: $wpoic-file-text; 
+  }
+}
+.wpoic-tag {
+  &:before {
+    content: $wpoic-tag; 
+  }
+}
+.wpoic-tags {
+  &:before {
+    content: $wpoic-tags; 
+  }
+}
+.wpoic-sticky {
+  &:before {
+    content: $wpoic-sticky; 
+  }
+}
+.wpoic-location {
+  &:before {
+    content: $wpoic-location; 
+  }
+}
+.wpoic-map {
+  &:before {
+    content: $wpoic-map; 
+  }
+}
+.wpoic-display {
+  &:before {
+    content: $wpoic-display; 
   }
 }
 .wpoic-download {
@@ -68,9 +137,44 @@
     content: $wpoic-database; 
   }
 }
+.wpoic-user {
+  &:before {
+    content: $wpoic-user; 
+  }
+}
+.wpoic-settings {
+  &:before {
+    content: $wpoic-settings; 
+  }
+}
+.wpoic-plug {
+  &:before {
+    content: $wpoic-plug; 
+  }
+}
+.wpoic-heart {
+  &:before {
+    content: $wpoic-heart; 
+  }
+}
+.wpoic-spell-check {
+  &:before {
+    content: $wpoic-spell-check; 
+  }
+}
+.wpoic-text-color {
+  &:before {
+    content: $wpoic-text-color; 
+  }
+}
 .wpoic-insert-template {
   &:before {
     content: $wpoic-insert-template; 
+  }
+}
+.wpoic-wordpress {
+  &:before {
+    content: $wpoic-wordpress; 
   }
 }
 .wpoic-collapse {
@@ -111,6 +215,11 @@
 .wpoic-info {
   &:before {
     content: $wpoic-info; 
+  }
+}
+.wpoic-art {
+  &:before {
+    content: $wpoic-art; 
   }
 }
 .wpoic-menu {
@@ -278,9 +387,19 @@
     content: $wpoic-envelope; 
   }
 }
+.wpoic-learn-more {
+  &:before {
+    content: $wpoic-learn-more; 
+  }
+}
 .wpoic-support {
   &:before {
     content: $wpoic-support; 
+  }
+}
+.wpoic-brush {
+  &:before {
+    content: $wpoic-brush; 
   }
 }
 

@@ -1,11 +1,10 @@
 @font-face {
   font-family: 'wponion';
-  src:  url('fonts/wponion.eot?k1ie3j');
-  src:  url('fonts/wponion.eot?k1ie3j#iefix') format('embedded-opentype'),
-    url('fonts/wponion.woff2?k1ie3j') format('woff2'),
-    url('fonts/wponion.ttf?k1ie3j') format('truetype'),
-    url('fonts/wponion.woff?k1ie3j') format('woff'),
-    url('fonts/wponion.svg?k1ie3j#wponion') format('svg');
+  src:
+    url('fonts/wponion.woff2?52nuqh') format('woff2'),
+    url('fonts/wponion.ttf?52nuqh') format('truetype'),
+    url('fonts/wponion.woff?52nuqh') format('woff'),
+    url('fonts/wponion.svg?52nuqh#wponion') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,8 +25,32 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.wpoic-status:before {
+  content: "\e911";
+}
+.wpoic-files-text:before {
+  content: "\e90b";
+}
+.wpoic-print:before {
+  content: "\e913";
+}
+.wpoic-view-site:before {
+  content: "\e90f";
+}
+.wpoic-text-page:before {
+  content: "\e90a";
+}
+.wpoic-home:before {
+  content: "\e90d";
+}
+.wpoic-office:before {
+  content: "\e90c";
+}
 .wpoic-pencil:before {
   content: "\e905";
+}
+.wpoic-blog:before {
+  content: "\e910";
 }
 .wpoic-book:before {
   content: "\e91f";
@@ -37,6 +60,24 @@
 }
 .wpoic-file-text:before {
   content: "\e922";
+}
+.wpoic-tag:before {
+  content: "\e935";
+}
+.wpoic-tags:before {
+  content: "\e936";
+}
+.wpoic-sticky:before {
+  content: "\e946";
+}
+.wpoic-location:before {
+  content: "\e947";
+}
+.wpoic-map:before {
+  content: "\e94b";
+}
+.wpoic-display:before {
+  content: "\e956";
 }
 .wpoic-download:before {
   content: "\e960";
@@ -50,8 +91,29 @@
 .wpoic-database:before {
   content: "\e964";
 }
+.wpoic-user:before {
+  content: "\e971";
+}
+.wpoic-settings:before {
+  content: "\e993";
+}
+.wpoic-plug:before {
+  content: "\e9b7";
+}
+.wpoic-heart:before {
+  content: "\e9da";
+}
+.wpoic-spell-check:before {
+  content: "\ea12";
+}
+.wpoic-text-color:before {
+  content: "\ea6d";
+}
 .wpoic-insert-template:before {
   content: "\ea72";
+}
+.wpoic-wordpress:before {
+  content: "\eab4";
 }
 .wpoic-collapse:before {
   content: "\e906";
@@ -76,6 +138,9 @@
 }
 .wpoic-info:before {
   content: "\e903";
+}
+.wpoic-art:before {
+  content: "\e90e";
 }
 .wpoic-menu:before {
   content: "\e904";
@@ -176,6 +241,12 @@
 .wpoic-envelope:before {
   content: "\f0e0";
 }
+.wpoic-learn-more:before {
+  content: "\f19d";
+}
 .wpoic-support:before {
   content: "\f1cd";
+}
+.wpoic-brush:before {
+  content: "\f1fc";
 }
