@@ -30,7 +30,7 @@ When using the icons in a separate project.
 ## 1.0 - 26/03/2020
 * First Release
 
-## 1.1 - 02/04/2020
+## 1.0.2 - 02/04/2020
 ### Added
 * Book
 * Upload
@@ -95,6 +95,33 @@ When using the icons in a separate project.
 * calendar-check-o
 * times-rectangle
 * times-rectangle-o
+
+## 1.0.3
+## Added
+* wpoic-learn-more
+* wpoic-brush
+* wpoic-art
+* wpoic-wordpress
+* wpoic-user
+* wpoic-settings
+* wpoic-plug
+* wpoic-heart
+* wpoic-spell-check
+* wpoic-text-color
+* wpoic-tag
+* wpoic-tags
+* wpoic-sticky
+* wpoic-location
+* wpoic-map
+* wpoic-display
+* wpoic-blog
+* wpoic-status
+* wpoic-files-text
+* wpoic-print
+* wpoic-view-site
+* wpoic-text-page
+* wpoic-home
+* wpoic-office
 ---
 
 ## License
