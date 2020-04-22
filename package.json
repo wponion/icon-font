@@ -1,6 +1,6 @@
 {
  "name": "@wponion/icons",
- "version": "1.0.2",
+ "version": "1.0.3",
  "description": "This repo contains custom icon fonts created / take from icomoon.io",
  "scripts": {
   "release": "npm version patch && npm publish"
